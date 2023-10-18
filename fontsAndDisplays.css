@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    background-color: red;
+    text-align: right;
+}
+/*For making all items of a list in one line we use this*/
+.content ul li{
+    display: inline;
+    font-size: 30px;
+    margin: 0px 20px;
+}
+.a{
+    display: inline-block;
+    width: 50%;
+    height: 90vh;
+    background-color: aqua;
+    /* Importing google fonts */
+    /* Paste the font link before linking Css in html file */
+    font-family: 'Baloo Bhai 2', sans-serif;
+}
+.b{
+    display: inline-block;
+    width: 50%;
+    height: 90vh;
+    background-color: blue;
+    font-family: 'Baloo Bhai 2', sans-serif;
+}
+.foot{
+    text-align: center;
+    background-color: gold ;
+}
