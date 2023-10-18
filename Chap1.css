@@ -1,0 +1,14 @@
+#first{
+    background-color: rgb(184, 106, 167);
+}
+.bg-blue{
+    background-color: rgb(216, 204, 101);
+    /* Color of the text */
+    color: black; 
+}
+h1{
+    color: red;
+}
+div{
+    background-color: antiquewhite;
+}
