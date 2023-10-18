@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.red{
+    background-color: red;
+    color: beige;
+    width: 1334px;
+    height: 344px;
+    /* Covers the total background while keeping the Image */
+    background-image: url('0.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.green{
+    background-color: black;
+    width: 1334px;
+    height: 344px;
+    /* Covers the total background while cutting the Image */
+    background-image: url('0.jpg');
+    background-size: cover;
+    /* We can scroll,fix the content move the background or vice versa */
+    background-attachment:scroll;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y,no-repeat; */
+}
