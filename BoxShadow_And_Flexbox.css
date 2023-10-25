@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    /* General description */
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+    border: 2px solid black;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.item{
+    width:300px;
+    height: 200px;
+    border: 2px solid red;
+    margin: 3px 20px;
+
+    /* Using box-shadow */
+    /* Third one is blur radius and Fourth one is spread radius */
+    box-shadow: 10px 10px 10px 10px green; 
+
+    /* Using text-shadow */
+    text-shadow: 3px 3px red;
+}
