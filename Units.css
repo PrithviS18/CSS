@@ -1,0 +1,23 @@
+/* Various Ways to acheive Responsive Design
+1.Setting up the viewport
+2.Using max-width/max-height
+3.Using CSS media queries
+4.Using rem/vw/vh units over pixels */
+
+html{
+    font-size: 5px;
+}
+
+.container{
+    font-size: 10px;
+}
+
+#first{
+    /* We use 'em' for multiplying the font size of the item according to its parent container */
+    font-size: 10em;
+}
+
+#second{
+    /* We use 'rem' for multiplying the font size of the item according to the html tag */
+    font-size: 10rem;
+}
