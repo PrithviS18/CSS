@@ -1,0 +1,63 @@
+.container{
+    width: 100%;
+    height: 500px;
+    border: 2px solid red;
+
+    /* Initialize flexbox */
+    display: flex;
+
+    /* Flex properties for flexbox container */
+    /* flex-direction: row; and columnn */
+    flex-direction: row;
+
+    /* By default it is no-wrap */
+    /* Wraps the content when the screen size decreases */
+    flex-wrap: wrap;
+
+    /* Specify position of Items of a Flexbox (Horizontally) */
+    justify-content: center;
+
+    /* Specify position of Items of a Flexbox (Vertically) */
+    align-items: center;
+    /* align-items: stretch; Aligns Flexbox items along the cross axis of the current container */
+}
+
+#item1{
+    /* Flex Properties for a flex item */
+
+    /* Higher the order, later it shows up in the flex container (The default value of order is 0)*/
+    order: 0;
+
+    /* The more the value of flex grow the more it grows when the screen size increases */
+    flex-grow: 2;
+
+     /* The more the value of flex shrink the more it shrinks when the screen size decreases */
+     flex-shrink: 2;
+
+    /* When the flex-direction is set to row flex-basis will control the width */
+    /* When the flex direction is set to column flex-basis will control the height */
+    flex-basis: 300px;
+
+
+}
+
+ #item2{
+    order: 1;
+    /* Aligns the items anywhere in the flexbox */
+    align-self: flex-end;
+    align-self: flex-start;
+    align-self: last baseline;
+}
+
+/* #item3{
+    order: -1;
+} */
+
+.item{
+    width: 200px;
+    height: 50px;
+    background-color: tomato;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
